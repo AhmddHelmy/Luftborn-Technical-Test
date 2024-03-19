@@ -1,0 +1,21 @@
+@import url(variables.scss);
+
+.main-color {
+    color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+.light-purple {
+    color: var(--light-purple);
+}
+
+.main-bg {
+    background-color: var(--primary-color);
+}
+
+.purple-text{
+    color: var(--text-purple);
+}
