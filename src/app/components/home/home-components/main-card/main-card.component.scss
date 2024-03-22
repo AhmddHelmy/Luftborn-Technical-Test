@@ -75,3 +75,45 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 279px;
+    }
+
+    .top-card {
+        padding: 24px 0;
+    }
+
+    img {
+        width: 64px !important;
+    }
+
+    .bottom-card {
+        flex-direction: row !important;
+        padding: 14px 0 !important;
+    }
+
+    .top-card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .report {
+        padding-bottom: 8px;
+    }
+
+    .img-container {
+        width: max-content;
+        padding-top: 12px;
+    }
+
+    .best {
+        padding: 0 !important;
+        font-size: 24px !important;
+        white-space: normal !important;
+        letter-spacing: normal !important;
+    }
+}

@@ -75,3 +75,42 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .bg {
+        height: 160px;
+        width: 279px;
+    }
+
+    .card {
+        height: 122px !important;
+        width: 100% !important;
+    }
+
+    .InStore {
+        display: none !important;
+    }
+
+    .first-line {
+        padding: 24px 10px !important;
+        justify-content: space-between !important;
+    }
+
+    .last-line {
+        padding: 8px 0 8px 40px !important;
+        justify-content: space-between !important;
+    }
+
+    .mobile {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .price {
+        padding-left: 10px !important;
+    }
+
+    .bg .price>span {
+        display: none;
+    }
+}

@@ -7,10 +7,10 @@ section {
     gap: 40px;
 }
 
-.small-card-container{
+.small-card-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    row-gap: 110px; 
+    row-gap: 110px;
     column-gap: 30px;
 }
 
@@ -19,8 +19,17 @@ section {
         grid-template-columns: 100%;
     }
 
-    .small-card-container{
+    .small-card-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+
+    section {
+        flex-direction: column;
+        height: max-content;
+        padding-top: 60px;
+        align-items: center;
+        gap: 20px;
     }
 }
