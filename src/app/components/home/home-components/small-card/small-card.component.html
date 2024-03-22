@@ -1,17 +1,17 @@
-<div class="bg">
+<div class="bg" [style.background-color]="backgroundColor">
     <div class="card">
         <div class="first-line">
-            <p class="men">men's clothing</p>
+            <p class="men">{{category}}</p>
             <div class="dots">
                 <div class="dot"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
             </div>
         </div>
-        <p class="price">109.95$</p>
+        <p class="price">{{price}}</p>
         <div class="last-line">
-            <p class="address">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</p>
-            <div class="InStore">InStore <p class="free">120</p>
+            <p class="address">{{description | description}}</p>
+            <div class="InStore">InStore <p class="free">{{count}}</p>
             </div>
         </div>
     </div>

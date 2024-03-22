@@ -1,4 +1,9 @@
 <section class="main-bg">
     <app-main-card></app-main-card>
-    <app-small-card></app-small-card>
+    <div class="small-card-container">
+        @for (product of products; track $index) {
+        <app-small-card [category]="product.category" [price]="product.price" [count]="product.rating.count"
+            [description]="product.description" [backgroundColor]="colors[$index % colors.length]"></app-small-card>
+        }
+    </div>
 </section>
